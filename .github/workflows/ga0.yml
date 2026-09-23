@@ -1,0 +1,12 @@
+   name: GA0 Check
+
+   on:
+     push:
+     workflow_dispatch:
+
+   jobs:
+     test:
+       runs-on: ubuntu-latest
+       steps:
+         - name: 26ds1000057@ds.study.iitm.ac.in
+           run: echo "Hello, world!"
